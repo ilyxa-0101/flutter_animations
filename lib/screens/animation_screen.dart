@@ -17,6 +17,8 @@ class _AnimationScreenState extends State<AnimationScreen>
 
   @override
   void initState() {
+    print("init state");
+
     _controller = AnimationController(
       vsync: this,
       duration: Duration(milliseconds: 5000),
