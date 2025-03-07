@@ -32,6 +32,7 @@ class _AnimationScreenState extends State<AnimationScreen>
 
   @override
   void dispose() {
+    print("DISPOSE");
     _controller.dispose();
     super.dispose();
   }
